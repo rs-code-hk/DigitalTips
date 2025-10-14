@@ -1,0 +1,21 @@
+/*@s*/
+/*IDs*/
+#MainMenu {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    resize: none;
+}
+#titleTextBox {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 350px;
+    height: 10px;
+}
+/*Classes*/
+.titleText {
+    font-size:36px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*HTML*/
